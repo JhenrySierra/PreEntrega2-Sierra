@@ -2,51 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
 }
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "logo nav";
+.myNavBar {
+    border-radius: 5px;
+
 }
 
-.logo {
-    grid-area: logo;
-    padding-left: 10px;
-    font-weight: 200;
-    text-decoration: none;
-    color: white;
-}
 
-.nav_bar {
-    grid-area: nav;
-    color: white;
-    line-height: 3;
-    text-align: right;
-}
 
-nav button {
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    letter-spacing: 2px;
-    border-radius: 10px;
-    background: #0d0d1f;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    margin: 10px;
-}
-
-nav button:hover {
-    transform: scale(1.1);
-    color: black;
-    font-weight: bold;
-    background: white;
-    box-shadow: 20px 20px 60px #05050c, -20px -20px 60px #151532;
-    cursor: pointer;
-    text-decoration: underline;
-    letter-spacing: 1.5px;
+.navbar {
+    width: 97vw;
 }
 
 body {
@@ -64,6 +31,7 @@ body {
     justify-content: center;
     max-width: 100%;
     flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .profile_pic img {
@@ -145,6 +113,7 @@ body {
     padding-top: 5px;
     padding-right: 5px;
     padding-left: 5px;
+    padding-bottom: 5px;
     filter: invert(100%);
     margin-left: 5%;
     margin-right: 5%;
@@ -353,6 +322,8 @@ footer {
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    margin-top: 1rem;
+
 }
 
 .webdev_service h2 {
@@ -466,6 +437,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1rem;
 
 }
 
@@ -494,11 +466,14 @@ footer {
     align-items: center;
     justify-content: center;
     max-width: 100%;
+    margin-top: 6rem;
+
 }
 
 .archviz_title h2 {
     color: white;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 
 }
 
@@ -530,6 +505,8 @@ footer {
     justify-content: center;
     max-width: 100%;
     margin-bottom: 1rem;
+    margin-top: 2rem;
+
 }
 
 .contactme_title h2 {
@@ -637,6 +614,68 @@ fieldset label {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
+
+/*customizing the Bootstrap form*/
+
+.bootstrapForm {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background: rgba(13, 13, 31, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: none;
+    margin-bottom: 3rem;
+}
+
+.mb-3 {
+    padding: 10px;
+}
+
+
+.bootstrapForm label {
+    color: white;
+}
+
+.bootstrapForm input {
+    width: 60%;
+    margin: auto;
+    background-color: transparent;
+}
+
+.bootstrapForm select {
+    width: 60%;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+
+}
+
+.bootstrapForm option {
+    width: 60%;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+
+}
+
+.bootstrapForm textarea {
+    width: 60%;
+    margin: auto;
+    background-color: transparent;
+
+}
+
+.bootstrapForm button {
+    margin-bottom: 30px
+}
+
+/*customizing the Bootstrap form*/
 
 #faq {
     display: block;

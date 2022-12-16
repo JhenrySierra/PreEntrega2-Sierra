@@ -7,12 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhenry Sierra - Contact Me</title>
     <link rel="icon" type="image/x-icon" href="../assets/logotipos/icon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 
 <body>
+    <!-- Bootstrap nav bar -->
     <header>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-dark myNavBar">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="../index.html">J.S.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/webdeveloper.html">Web Developer</a>
+                            <li class="nav-item">
+                                <a class="nav-link class text-white" href="../pages/dataanlysis.html">Data Analysis</a>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="../pages/archviz.html">ArchViz w/ Blender</a>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="../pages/contactme.html">Contact Me</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <!-- <header>
         <a class="logo" href="../index.html">
             <h1>Jhenry Sierra</h1>
         </a>
@@ -26,150 +60,148 @@
             </ul>
         </nav>
     </header>
-    <br>
-    <main>
+-->    
+
+<main>
         <div class="contactme_title">
             <h2>Contact Me</h2>
-        </div>
-        <section class="form_section">
-            <form>
-                <fieldset>
-                    <div id="keep_contact">
-                        <p>Let's keep in contact!</p>
-                    </div>
-                    <div class="input">
-                        <label for="name">Name
-                            <input type="text" id="name" placeholder="enter name"></label>
-                    </div>
-                    <div class="input">
-                        <label for="email">e-mail
-                            <input type="email" id="email" placeholder="enter e-mail"></label>
-                    </div>
-                    <div class="input">
-                        <label for="services">Interested in?
-                            <select name="services" id="services">
-                                <option value="none"></option>
-                                <option value="archviz">Archviz with Blender</option>
-                                <option value="webdev">Web Development</option>
-                                <option value="data">Data Analysis</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="input">
-                        <label for="message">Input a Message
-                            <input type="text" name="message" id="message" cols="30" rows="5"
-                                placeholder=""></input></label>
-                    </div>
-                    <div class="submit_button">
-                        <button>Submit</button>
-                    </div>
-                </fieldset>
-            </form>
-        </section>
-        <section>
-            <div class="social_media">
-                <div class="social_media_container">
-                    <ul>
-                        <a href="https://github.com/">
-                            <button class="github" type="image">
-                                <img src="../assets/logotipos/github.png" alt="">
-                            </button></a>
-                        <a href="https://facebook.com/">
-                            <button class="github" type="image">
-                                <img src="../assets/logotipos/facebook.png" alt="">
-                            </button></a>
-                        <a href="https://instagram.com/">
-                            <button class="github" type="image">
-                                <img src="../assets/logotipos/instagram.png" alt="">
-                            </button></a>
-                        <a href="https://twitter.com/">
-                            <button class="github" type="image">
-                                <img src="../assets/logotipos/twitter.png" alt="">
-                            </button></a>
-                        <a href="https://youtube.com/">
-                            <button class="github" type="image">
-                                <img src="../assets/logotipos/youtube.png" alt="">
-                            </button></a>
-                        <a href="https://linkedin.com/">
-                            <button class="github" type="image">
-                                <img src="../assets/logotipos/linkedin.png" alt="">
-                            </button></a>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div id="faq">
-                <h2>Frequently Asked Questions (FAQ's)</h2>
-            </div>
+        </div> 
 
-            <div class="faq_container">
-                <div class="faq_card">
-                    <div class="faq_question">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
-                    </div>
-                    <div class="faq_answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
-                            quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
-                            laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
-                    </div>
+
+    <!-- Bootstrap Form test-->
+    <section class="bootstrapForm">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="enter your name">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">E-mail</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="enter your email address">
+        </div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>What service are you interested in?</option>
+            <option value="1">Web Development</option>
+            <option value="2">Data Analysis</option>
+            <option value="3">Archviz w/ Blender</option>
+        </select>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Input a message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </section>
+
+    <section>
+        <div class="social_media">
+            <div class="social_media_container">
+                <ul>
+                    <a href="https://github.com/">
+                        <button class="github" type="image">
+                            <img src="../assets/logotipos/github.png" alt="">
+                        </button></a>
+                    <a href="https://facebook.com/">
+                        <button class="github" type="image">
+                            <img src="../assets/logotipos/facebook.png" alt="">
+                        </button></a>
+                    <a href="https://instagram.com/">
+                        <button class="github" type="image">
+                            <img src="../assets/logotipos/instagram.png" alt="">
+                        </button></a>
+                    <a href="https://twitter.com/">
+                        <button class="github" type="image">
+                            <img src="../assets/logotipos/twitter.png" alt="">
+                        </button></a>
+                    <a href="https://youtube.com/">
+                        <button class="github" type="image">
+                            <img src="../assets/logotipos/youtube.png" alt="">
+                        </button></a>
+                    <a href="https://linkedin.com/">
+                        <button class="github" type="image">
+                            <img src="../assets/logotipos/linkedin.png" alt="">
+                        </button></a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="faq">
+            <h2>Frequently Asked Questions (FAQ's)</h2>
+        </div>
+
+        <div class="faq_container">
+            <div class="faq_card">
+                <div class="faq_question">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
                 </div>
-                <div class="faq_card">
-                    <div class="faq_question">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
-                    </div>
-                    <div class="faq_answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
-                            quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
-                            laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
-                    </div>
-                </div>
-                <div class="faq_card">
-                    <div class="faq_question">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
-                    </div>
-                    <div class="faq_answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
-                            quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
-                            laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
-                    </div>
-                </div>
-                <div class="faq_card">
-                    <div class="faq_question">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
-                    </div>
-                    <div class="faq_answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
-                            quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
-                            laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
-                    </div>
-                </div>
-                <div class="faq_card">
-                    <div class="faq_question">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
-                    </div>
-                    <div class="faq_answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
-                            quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
-                            laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
-                    </div>
-                </div>
-                <div class="faq_card">
-                    <div class="faq_question">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
-                    </div>
-                    <div class="faq_answer">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
-                            quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
-                            laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
-                    </div>
+                <div class="faq_answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
+                        quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
+                        laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
                 </div>
             </div>
-        </section>
+            <div class="faq_card">
+                <div class="faq_question">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
+                </div>
+                <div class="faq_answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
+                        quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
+                        laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
+                </div>
+            </div>
+            <div class="faq_card">
+                <div class="faq_question">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
+                </div>
+                <div class="faq_answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
+                        quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
+                        laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
+                </div>
+            </div>
+            <div class="faq_card">
+                <div class="faq_question">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
+                </div>
+                <div class="faq_answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
+                        quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
+                        laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
+                </div>
+            </div>
+            <div class="faq_card">
+                <div class="faq_question">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
+                </div>
+                <div class="faq_answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
+                        quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
+                        laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
+                </div>
+            </div>
+            <div class="faq_card">
+                <div class="faq_question">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing?</h3>
+                </div>
+                <div class="faq_answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam enim delectus, sint
+                        quisquam repellat necessitatibus, magni consequuntur velit itaque odio aperiam autem
+                        laborum. Perspiciatis, doloremque nemo. Tenetur, quisquam neque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
     <footer>
         &copy; Jhenry Sierra - All rights reserved (2022)
     </footer>
+
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
