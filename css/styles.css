@@ -16,6 +16,10 @@
     width: 97vw;
 }
 
+.myNavBar div ul li a:hover {
+    color: aqua;
+}
+
 body {
     background: rgb(0, 6, 32);
     background: linear-gradient(160deg, rgba(0, 6, 32, 1) 0%, rgba(0, 26, 128, 1) 50%, rgba(0, 212, 223, 1) 100%);
@@ -64,7 +68,7 @@ body {
 .profile_text p {
     text-align: center;
     font-size: smaller;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
 .profile_text h3 {
@@ -84,13 +88,13 @@ body {
 }
 
 .about_me h2 {
-    letter-spacing: .5rem;
+    letter-spacing: 2px;
     padding-bottom: 1rem;
     margin-top: 2rem;
 }
 
 .about_me p {
-    letter-spacing: .2rem;
+    letter-spacing: 2px;
     padding: .5rem;
 }
 
@@ -173,7 +177,7 @@ body {
 }
 
 .services_overview_title h2 {
-    letter-spacing: .5rem;
+    letter-spacing: 2px;
     color: white;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -278,7 +282,7 @@ body {
 .video_section h2 {
     color: white;
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: 2px;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -362,7 +366,7 @@ footer {
 
 .web_dev_text p {
     color: white;
-    letter-spacing: .1rem;
+    letter-spacing: 2px;
     margin-right: 1rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
@@ -402,6 +406,24 @@ footer {
 }
 
 /*web developer samples container inside webdev page start*/
+
+#carousel_samples {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.carousel_samples_img {
+    margin: auto;
+    width: 1000px;
+}
+
+.carousel_samples_img img {
+
+    height: 600px;
+    border-radius: 20px;
+
+}
+
 .web_dev_samples_container {
     display: flex;
     align-items: center;
@@ -479,7 +501,7 @@ footer {
 
 .archviz_text p {
     color: white;
-    letter-spacing: .1rem;
+    letter-spacing: 2px;
     margin-right: 1rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
@@ -783,6 +805,22 @@ fieldset label {
         padding: 0px;
     }
 
+    #carousel_samples {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .carousel_samples_img {
+        margin: auto;
+        width: 340px;
+    }
+    
+    .carousel_samples_img img {
+        height: 200px;
+        border-radius: 20px;
+    
+    }
+
     .web_dev_samples_container {
         width: 100%;
     }
@@ -829,7 +867,7 @@ fieldset label {
         width: 90%;
     }
 
-    
+
 
     .input {
         display: block;
