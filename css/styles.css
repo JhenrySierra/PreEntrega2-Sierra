@@ -655,10 +655,9 @@ fieldset label {
     margin-bottom: 3rem;
 }
 
-.mb-3 {
+.mb-3 label {
     padding: 10px;
 }
-
 
 .bootstrapForm label {
     color: white;
@@ -671,18 +670,17 @@ fieldset label {
 }
 
 .bootstrapForm select {
-    width: 60%;
+    width: 59%;
     margin: auto;
     background-color: transparent;
     color: white;
-
 }
 
 .bootstrapForm option {
     width: 60%;
     margin: auto;
     background-color: transparent;
-    color: white;
+    color: black;
 
 }
 
@@ -864,6 +862,10 @@ fieldset label {
         width: 90%;
     }
     .form_section div textarea{
+        width: 90%;
+    }
+
+    .form_section select{
         width: 90%;
     }
 
