@@ -18,7 +18,7 @@
     <header>
         <section>
             <nav class="navbar navbar-expand-lg bg-dark myNavBar">
-                <div class="container-fluid">
+                <div class="container">
                     <a class="navbar-brand text-white" href="../index.html">J.S.</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -26,7 +26,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                             <li class="nav-item">
                                 <a class="nav-link text-white" aria-current="page" href="../index.html">Home</a>
                             </li>
@@ -79,6 +79,43 @@
 
     <div class="services_overview_title">
         <h2>Explore some Samples!</h2>
+        <!-- Boostrap Carousel -->
+        <div id="carousel_samples">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carousel_samples_img">
+                    <div class="carousel-item active">
+                        <img src="https://external-preview.redd.it/0gp3-G1Q4sTLff0mJP9SCfCV9YOX3ZC9wjA3GgxgEV8.jpg?auto=webp&s=22641abb6bc84d405696219e7ffddb1036bb8d36"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://preview.redd.it/ba0fk24hw1c51.jpg?width=1920&format=pjpg&auto=webp&s=158e473e69ea53de0f54323bfa53856cda9815cb"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://preview.redd.it/fh2ngdbbptb51.jpg?width=1920&format=pjpg&auto=webp&s=52ec8823be360a5c51219bda1c293831b108d7df"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
         <div class="web_dev_samples_container">
             <div class="sample_images">
                 <img src="../assets/img/archviz/render2.jpg" alt="">
