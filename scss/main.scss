@@ -1,0 +1,20 @@
+/*CSS Reset*/
+@import "./normalize/reset";
+/*Color Vars*/
+@import "./utilities/color";
+/*Pages Layout Setup*/
+@import "./pages/index";
+@import "./pages/webdeveloper";
+@import "./pages/dataanalysis";
+@import "./pages/archviz";
+@import "./pages/contactme";
+@import "./views/queries";
+/*Components*/
+@import "./components/buttons";
+@import "./components/cards";
+@import "./components/images";
+@import "./components/lists";
+@import "./components/navbar";
+@import "./components/text";
+@import "./components/titles";
+

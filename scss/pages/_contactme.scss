@@ -1,0 +1,114 @@
+// nesting para pagina contact me
+
+/*Title start*/
+
+.contactme_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+/*Title end*/
+
+.bootstrapForm {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background: rgba(13, 13, 31, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: none;
+    margin-bottom: 2rem;
+
+    & label {
+        color: white;
+    }
+
+    & input {
+        width: 60%;
+        margin: auto;
+        background-color: transparent;
+        color: white
+    }
+
+    & select {
+        width: 59%;
+        margin: auto;
+        background-color: transparent;
+        color: white;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    & option {
+        width: 60%;
+        margin: auto;
+        background-color: transparent;
+        color: black;
+    
+    }
+
+    & textarea {
+        width: 60%;
+        margin: auto;
+        background-color: transparent;
+        color: white;
+    }
+
+    & button {
+        margin-bottom: 30px;
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+    }
+}
+
+#faq {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background: rgba(13, 13, 31, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: none;
+    width: 50%;
+
+    & h2 {
+        color: white;
+        margin-bottom: 0.5rem;
+    }
+
+    & .faq_accordion {
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    
+        & .accordion .accordion-item {
+            background: transparent;
+            color:white;
+            font-size: large;
+        }
+
+        & button {
+            color: white;
+            background-color: transparent;
+            font-size: large;
+        }
+    }
+    
+}

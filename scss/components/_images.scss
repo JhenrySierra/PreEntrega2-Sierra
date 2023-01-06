@@ -1,0 +1,17 @@
+// mixins para imagenes de la pagina
+
+#carousel_samples {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+    & .carousel_samples_img {
+        margin: auto;
+        width: 1000px;
+
+        & img {
+
+            height: 600px;
+            border-radius: 20px;
+        }
+    }
+}

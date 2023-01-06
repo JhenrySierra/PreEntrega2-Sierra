@@ -1,0 +1,120 @@
+//media queries con breakpoints
+
+@media (min-width: 320px) and (max-width: 900px) {
+
+    /*Home start*/
+    .about_me {
+        width: 100%;
+        margin: 0px;
+
+        & p{
+            font-size: 12px;
+            padding-top: 10px
+        }
+    }
+
+    .skills_container {
+        display: flex;
+        justify-content: center;
+        column-gap: 1%;
+    }
+
+    /*Home end*/
+    /*Main content start (Includes WebDev, DataAnalysis, Archviz pages*/
+
+    .web_dev_main {
+        width: 100%;
+        padding: 0px;
+
+        & img {
+            border-radius: 15px;
+            max-width: 100%;
+        }
+    }
+
+    .data_analysis_pic img {
+        border-radius: 15px;
+        max-width: 100%;
+    }
+
+    .archviz_pic img {
+        border-radius: 15px;
+        max-width: 100%;
+    }
+
+
+    .web_dev_text {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+
+    .web_dev_samples_container {
+        width: 100%;
+
+        & img {
+            width: 100%;
+            padding: 0px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .video_container {
+        column-gap: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 100%;
+    
+        & .video {
+            margin-bottom: 10px;
+            width: 100%;
+
+            & iframe {
+                width: 100%;
+                height: 190px;
+                border-radius: 1rem;
+            }
+        }
+    }
+}
+
+    /*Main content end*/
+    /*Contact Me page start*/
+
+    .form_section {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    fieldset {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .input {
+        display: block;
+        padding: 0px;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .input label input {
+        width: 87%;
+        padding: 0.5rem;
+    }
+
+    #faq{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    /*Contact Me page end*/

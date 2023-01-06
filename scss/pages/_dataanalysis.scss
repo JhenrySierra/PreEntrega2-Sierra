@@ -1,0 +1,24 @@
+// nesting para pagina data analysis
+
+/*Title start*/
+.data_analysis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & h2 {
+        color: white;
+        margin-bottom: 2rem;
+    }
+
+    & img {
+        border-radius: 25px;
+        justify-content: flex-start;
+        padding: .5rem;
+        opacity: 80%;
+        max-width: 600px;
+    }
+}
+
+
+/*Title end*/
