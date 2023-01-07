@@ -1,4 +1,12 @@
 // mixing para cards de cada servicio
+@mixin glassEffect {
+    background: rgba(13, 13, 31, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: none;
+}
 // mixing para cards de la pagina principal
 // mixing para contenedor de ejemplos imagenes
 // mixing para la seccion de videos

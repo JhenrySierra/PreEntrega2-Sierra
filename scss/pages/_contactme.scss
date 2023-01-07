@@ -20,13 +20,8 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    background: rgba(13, 13, 31, 0.27);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.1px);
-    -webkit-backdrop-filter: blur(6.1px);
-    border: none;
     margin-bottom: 2rem;
+    @include glassEffect;
 
     & label {
         color: white;
@@ -79,17 +74,17 @@
     margin-top: 2rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    background: rgba(13, 13, 31, 0.27);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.1px);
-    -webkit-backdrop-filter: blur(6.1px);
-    border: none;
     width: 50%;
+    @include glassEffect;
 
     & h2 {
         color: white;
         margin-bottom: 0.5rem;
+    }
+
+    & .accordion-body {
+        font-size: smaller;
+        text-align: left;
     }
 
     & .faq_accordion {
@@ -100,15 +95,14 @@
     
         & .accordion .accordion-item {
             background: transparent;
-            color:white;
+            color:$text;
             font-size: large;
         }
 
         & button {
-            color: white;
+            color: $text;
             background-color: transparent;
             font-size: large;
         }
     }
-    
 }

@@ -19,6 +19,7 @@
     }
 }
 
+
 //nesting para el layout de las paginas
 
 .profile_full {
@@ -45,8 +46,7 @@
     & .profile_text {
         line-height: 1.5;
         padding: 2rem;
-        background-color: white;
-        color: white;
+        color: $text;
         font-weight: 400;
         background: rgba(13, 13, 31, 0.27);
         border-radius: 16px;
@@ -70,7 +70,7 @@
 
 /*About me in Home start*/
 .about_me {
-    color: white;
+    color: $text;
     width: 75%;
     margin: auto;
     text-align: center;
@@ -147,7 +147,7 @@
         display: block;
         justify-content: center;
         text-align: center;
-        color: white;
+        color: $text;
         font-size: smaller;
 
         & h2 {
@@ -166,7 +166,7 @@
 
     & h2 {
         letter-spacing: .5rem;
-        color: white;
+        color: $text;
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
@@ -201,19 +201,14 @@
 
 .service_overview_container {
     padding: 20px;
-    background: rgba(13, 13, 31, 0.27);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.1px);
-    -webkit-backdrop-filter: blur(6.1px);
-    border: none;
     vertical-align: middle;
     min-width: 300px;
     max-width: 400px;
     margin-bottom: 20px;
+    @include glassEffect;
 
     & h2 {
-        color: white;
+        color: $text;
         text-align: center;
         font-size: medium;
         letter-spacing: 2px;
@@ -222,7 +217,7 @@
     }
 
     & p {
-        color: white;
+        color: $text;
         text-align: center;
         justify-content: center;
         letter-spacing: 2px;
@@ -243,7 +238,7 @@
 /*Footer main*/
 footer {
     background-color: black;
-    color: white;
+    color: $text;
     text-align: center;
     padding: 1%;
 }

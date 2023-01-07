@@ -37,8 +37,7 @@ body {
 .profile_full .profile_text {
   line-height: 1.5;
   padding: 2rem;
-  background-color: white;
-  color: white;
+  color: rgb(254, 254, 254);
   font-weight: 400;
   background: rgba(13, 13, 31, 0.27);
   border-radius: 16px;
@@ -59,7 +58,7 @@ body {
 
 /*About me in Home start*/
 .about_me {
-  color: white;
+  color: rgb(254, 254, 254);
   width: 75%;
   margin: auto;
   text-align: center;
@@ -126,7 +125,7 @@ body {
   display: block;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: rgb(254, 254, 254);
   font-size: smaller;
 }
 .skills_container .skill_description h2 {
@@ -142,7 +141,7 @@ body {
 }
 .services_overview_title h2 {
   letter-spacing: 0.5rem;
-  color: white;
+  color: rgb(254, 254, 254);
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -189,19 +188,19 @@ body {
 /*Service Overview containers in Home start */
 .service_overview_container {
   padding: 20px;
+  vertical-align: middle;
+  min-width: 300px;
+  max-width: 400px;
+  margin-bottom: 20px;
   background: rgba(13, 13, 31, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.1px);
   -webkit-backdrop-filter: blur(6.1px);
   border: none;
-  vertical-align: middle;
-  min-width: 300px;
-  max-width: 400px;
-  margin-bottom: 20px;
 }
 .service_overview_container h2 {
-  color: white;
+  color: rgb(254, 254, 254);
   text-align: center;
   font-size: medium;
   letter-spacing: 2px;
@@ -209,7 +208,7 @@ body {
   margin-bottom: 0.5rem;
 }
 .service_overview_container p {
-  color: white;
+  color: rgb(254, 254, 254);
   text-align: center;
   justify-content: center;
   letter-spacing: 2px;
@@ -228,7 +227,7 @@ body {
 /*Footer main*/
 footer {
   background-color: black;
-  color: white;
+  color: rgb(254, 254, 254);
   text-align: center;
   padding: 1%;
 }
@@ -241,7 +240,7 @@ footer {
   max-width: 100%;
 }
 .webdev_service h2 {
-  color: white;
+  color: rgb(254, 254, 254);
   margin-bottom: 2rem;
 }
 
@@ -256,13 +255,13 @@ footer {
   width: 80%;
   margin: auto;
   padding: 20px;
+  max-width: 1290px;
   background: rgba(13, 13, 31, 0.27);
-  border-radius: 1rem;
+  border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.1px);
   -webkit-backdrop-filter: blur(6.1px);
   border: none;
-  max-width: 1290px;
 }
 .web_dev_main img {
   border-radius: 25px;
@@ -272,7 +271,7 @@ footer {
   max-width: 600px;
 }
 .web_dev_main p {
-  color: white;
+  color: rgb(254, 254, 254);
   letter-spacing: 0.1rem;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -324,7 +323,7 @@ footer {
 
 /*Watch a video start*/
 .video_section h2 {
-  color: white;
+  color: rgb(254, 254, 254);
   text-align: center;
   letter-spacing: 0.3rem;
   margin-top: 1rem;
@@ -359,7 +358,7 @@ footer {
   justify-content: center;
 }
 .data_analysis h2 {
-  color: white;
+  color: rgb(254, 254, 254);
   margin-bottom: 2rem;
 }
 .data_analysis img {
@@ -379,11 +378,11 @@ footer {
   max-width: 100%;
 }
 .archviz_title h2 {
-  color: white;
+  color: rgb(254, 254, 254);
   margin-bottom: 2rem;
 }
 .archviz_title p {
-  color: white;
+  color: rgb(254, 254, 254);
   letter-spacing: 0.1rem;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -416,13 +415,13 @@ footer {
   width: 50%;
   margin: auto;
   text-align: center;
+  margin-bottom: 2rem;
   background: rgba(13, 13, 31, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.1px);
   -webkit-backdrop-filter: blur(6.1px);
   border: none;
-  margin-bottom: 2rem;
 }
 .bootstrapForm label {
   color: white;
@@ -468,17 +467,21 @@ footer {
   margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
+  width: 50%;
   background: rgba(13, 13, 31, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.1px);
   -webkit-backdrop-filter: blur(6.1px);
   border: none;
-  width: 50%;
 }
 #faq h2 {
   color: white;
   margin-bottom: 0.5rem;
+}
+#faq .accordion-body {
+  font-size: smaller;
+  text-align: left;
 }
 #faq .faq_accordion {
   width: 90%;
@@ -488,11 +491,11 @@ footer {
 }
 #faq .faq_accordion .accordion .accordion-item {
   background: transparent;
-  color: white;
+  color: rgb(254, 254, 254);
   font-size: large;
 }
 #faq .faq_accordion button {
-  color: white;
+  color: rgb(254, 254, 254);
   background-color: transparent;
   font-size: large;
 }
@@ -531,9 +534,17 @@ footer {
     border-radius: 15px;
     max-width: 100%;
   }
-  .web_dev_text {
-    font-size: 14px;
-    padding: 0px;
+  #carousel_samples {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  #carousel_samples .carousel_samples_img {
+    margin: auto;
+    max-width: 100%;
+  }
+  #carousel_samples .carousel_samples_img img {
+    border-radius: 20px;
+    max-height: 250px;
   }
   .web_dev_samples_container {
     width: 100%;
@@ -597,14 +608,15 @@ footer {
 /*Components*/
 /*mixins para cards, las principales de home y las de cada pagina*/
 #carousel_samples {
+  margin-bottom: 4rem;
   margin-top: 4rem;
-  margin-bottom: 2rem;
 }
 #carousel_samples .carousel_samples_img {
   margin: auto;
-  width: 1000px;
+  width: 920px;
 }
 #carousel_samples .carousel_samples_img img {
+  width: 100%;
   height: 600px;
   border-radius: 20px;
 }

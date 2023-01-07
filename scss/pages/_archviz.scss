@@ -1,7 +1,6 @@
 // nesting para pagina archviz
 
 /*Title start*/
-
 .archviz_title {
     display: flex;
     align-items: center;
@@ -9,12 +8,12 @@
     max-width: 100%;
 
     & h2 {
-        color: white;
+        color: $text;
         margin-bottom: 2rem;
     }
 
     & p {
-        color: white;
+        color: $text;
         letter-spacing: .1rem;
         margin-right: 1rem;
         margin-left: 1rem;

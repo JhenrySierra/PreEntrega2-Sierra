@@ -8,10 +8,11 @@
     max-width: 100%;
 
     h2 {
-        color: white;
+        color: $text;
         margin-bottom: 2rem;
     }
 }
+
 /*Title end*/
 
 /*web developer container inside webdev page start*/
@@ -24,13 +25,8 @@
     width: 80%;
     margin: auto;
     padding: 20px;
-    background: rgba(13, 13, 31, 0.27);
-    border-radius: 1rem;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.1px);
-    -webkit-backdrop-filter: blur(6.1px);
-    border: none;
     max-width: 1290px;
+    @include glassEffect;
 
     & img {
         border-radius: 25px;
@@ -41,7 +37,7 @@
     }
 
     & p {
-        color: white;
+        color: $text;
         letter-spacing: .1rem;
         margin-right: 1rem;
         margin-left: 1rem;
@@ -82,7 +78,7 @@
 
 /*Watch a video start*/
 .video_section h2 {
-    color: white;
+    color: $text;
     text-align: center;
     letter-spacing: .3rem;
     margin-top: 1rem;
@@ -108,6 +104,7 @@
         }
     }
 }
+
 /*Watch a video end*/
 
 /*web developer samples container inside webdev page end*/
