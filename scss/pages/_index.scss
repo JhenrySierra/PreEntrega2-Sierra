@@ -1,5 +1,5 @@
 @mixin button {
-    
+
     background-color: white;
     border-radius: 9999px;
     padding: 10px 20px;
@@ -123,6 +123,7 @@
         }
     }
 }
+
 /*Social Media box end in Home*/
 
 
@@ -143,7 +144,7 @@
 
     }
 
-    & .skill_description{
+    & .skill_description {
         display: block;
         justify-content: center;
         text-align: center;
@@ -156,6 +157,7 @@
         }
     }
 }
+
 /*Skills end*/
 
 /*Service Overview title in Home start */
@@ -195,6 +197,7 @@
         @include button
     }
 }
+
 /*Service Overview Title in Home finish */
 
 /*Service Overview containers in Home start */
@@ -233,6 +236,7 @@
         max-height: 450px;
     }
 }
+
 /*Service Overview containers in Home end */
 
 /*Footer main*/
