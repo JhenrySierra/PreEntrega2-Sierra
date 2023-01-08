@@ -13,6 +13,11 @@ body {
   margin: 1rem;
 }
 
+main {
+  max-width: 1920px;
+  margin: auto;
+}
+
 /*Color Vars*/
 /*Pages Layout Setup*/
 .profile_full {
@@ -135,7 +140,7 @@ body {
 /*Skills end*/
 /*Service Overview title in Home start */
 .services_overview_title {
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -509,6 +514,9 @@ footer {
   .about_me p {
     font-size: 12px;
     padding-top: 10px;
+  }
+  .service_overview_container {
+    max-width: 1920px;
   }
   .skills_container {
     display: flex;
