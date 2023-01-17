@@ -42,7 +42,7 @@ main {
 .profile_full .profile_text {
   line-height: 1.5;
   padding: 2rem;
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   font-weight: 400;
   background: rgba(13, 13, 31, 0.27);
   border-radius: 16px;
@@ -63,7 +63,7 @@ main {
 
 /*About me in Home start*/
 .about_me {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   width: 75%;
   margin: auto;
   text-align: center;
@@ -130,7 +130,7 @@ main {
   display: block;
   justify-content: center;
   text-align: center;
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   font-size: smaller;
 }
 .skills_container .skill_description h2 {
@@ -146,7 +146,7 @@ main {
 }
 .services_overview_title h2 {
   letter-spacing: 0.5rem;
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -205,7 +205,7 @@ main {
   border: none;
 }
 .service_overview_container h2 {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: medium;
   letter-spacing: 2px;
@@ -213,7 +213,7 @@ main {
   margin-bottom: 0.5rem;
 }
 .service_overview_container p {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   text-align: center;
   justify-content: center;
   letter-spacing: 2px;
@@ -232,7 +232,7 @@ main {
 /*Footer main*/
 footer {
   background-color: black;
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 1%;
 }
@@ -245,7 +245,7 @@ footer {
   max-width: 100%;
 }
 .webdev_service h2 {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   margin-bottom: 2rem;
 }
 
@@ -276,7 +276,7 @@ footer {
   max-width: 600px;
 }
 .web_dev_main p {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   letter-spacing: 0.1rem;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -328,7 +328,7 @@ footer {
 
 /*Watch a video start*/
 .video_section h2 {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   text-align: center;
   letter-spacing: 0.3rem;
   margin-top: 1rem;
@@ -363,7 +363,7 @@ footer {
   justify-content: center;
 }
 .data_analysis h2 {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   margin-bottom: 2rem;
 }
 .data_analysis img {
@@ -383,11 +383,11 @@ footer {
   max-width: 100%;
 }
 .archviz_title h2 {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   margin-bottom: 2rem;
 }
 .archviz_title p {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   letter-spacing: 0.1rem;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -496,11 +496,11 @@ footer {
 }
 #faq .faq_accordion .accordion .accordion-item {
   background: transparent;
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   font-size: large;
 }
 #faq .faq_accordion button {
-  color: rgb(254, 254, 254);
+  color: rgb(255, 255, 255);
   background-color: transparent;
   font-size: large;
 }
@@ -614,7 +614,6 @@ footer {
   /*Contact Me page end*/
 }
 /*Components*/
-/*mixins para cards, las principales de home y las de cada pagina*/
 #carousel_samples {
   margin-bottom: 4rem;
   margin-top: 4rem;
